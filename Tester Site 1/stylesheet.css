@@ -1,0 +1,44 @@
+html, body{
+	padding:0px;
+	margin:0px;
+}
+
+div, nav, footer, header, main, section, article{
+	display: block;
+}
+
+header{
+	text-align: center;
+	background-color: blue;
+	padding: 5px;
+
+}
+
+nav{
+	background-color: green;
+	margin: 0px;
+	padding:0px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+}
+
+.right{
+	float: right;
+}
